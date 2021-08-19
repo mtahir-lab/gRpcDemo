@@ -31,7 +31,7 @@ namespace gRpcDemo.Controllers
         {
             try
             {
-
+                //https://docs.microsoft.com/en-us/aspnet/core/grpc/code-first?view=aspnetcore-5.0
                 // GRPC Implimentation 
                 // It will use the API service contract and call the method. 
                 // First it will create the channel. 
