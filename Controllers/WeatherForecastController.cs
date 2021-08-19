@@ -31,6 +31,14 @@ namespace gRpcDemo.Controllers
         {
             try
             {
+
+                //1-  Define the Code Contract (Request & Reply)
+                //2-  Define the OperationContract - Interface for your service
+                //3-  Define the Service Contract for your service. Impliment your interface. 
+                //4-  Create a GRPCChannel via ForAddress Method. 
+                //5-  Hand over your interface to grpc channel creategrpc service method. It will construct the client. 
+                //6-  Call You service method by following your contract classes. 
+
                 //https://docs.microsoft.com/en-us/aspnet/core/grpc/code-first?view=aspnetcore-5.0
                 // GRPC Implimentation 
                 // It will use the API service contract and call the method. 
